@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        android:layout_marginBottom="15dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IP Database"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IP Upload"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtIPDatabase"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edittext_bottom_bg"
+                android:inputType="text"
+                android:textColorHint="#cccccc"
+                android:layout_marginRight="5dp"
+                android:hint="IP"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/edtIPUpload"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edittext_bottom_bg"
+                android:inputType="text"
+                android:textColorHint="#cccccc"
+                android:layout_marginLeft="5dp"
+                android:hint="IP"
+                android:textSize="16sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Database"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtNamaDB"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_bottom_bg"
+        android:inputType="text"
+        android:textColorHint="#cccccc"
+        android:layout_marginBottom="15dp"
+        android:hint="NAMA DB"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_bottom_bg"
+        android:inputType="text"
+        android:textColorHint="#cccccc"
+        android:layout_marginBottom="15dp"
+        android:hint="UserName"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edittext_bottom_bg"
+        android:hint="Password"
+        android:inputType="text"
+        android:password="true"
+        android:textColorHint="#cccccc"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Path"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edittext_bottom_bg"
+        android:hint="Location Path"
+        android:inputType="text"
+        android:textColorHint="#cccccc"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Save"/>
+
+</LinearLayout>
